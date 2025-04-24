@@ -3,26 +3,40 @@ Use SQL queries to extract and analyzse from a database.
 
 Summary of SQL Tasks :
 
-(Create a database:)
+E-commerce SQL Analysis Project :
+This project focuses on analyzing e-commerce sales data using MySQL. It demonstrates essential SQL operations such as filtering, grouping, 
+aggregating, subqueries, joins, views, and indexing. The data is sourced from a CSV file (ecommerce_data.csv) and imported into MySQL for analysis.
 
-SELECT Statement :
-Used to retrieve data from a database.
 
-GROUP BY Clause :
-Groups rows that have the same values into summary rows.
+ Dataset Description :
+ The dataset includes the following fields:
+- Order ID
+- Order Date
+- Ship Date
+- Ship Mode
+- Customer ID
+- Customer Name
+- Segment
+- City
+- State
+- Country
+- Postal Code
+- Market
+- Region
+- Product ID
+- Category
+- Sub-Category
+- Product Name
+- Sales
+- Quantity
+- Discount
+- Profit
+- Shipping Cost
+- Order Priority
 
-Aggregate Functions :
-Functions like SUM, AVG, etc., are used for performing calculations on grouped data.
 
-JOIN Operations :
-Combines rows from two or more tables based on related columns.
+ Database Setup :
 
-Subqueries :
-Queries nested inside another query.
-Single Subquery: A subquery that returns a single value or row.
-
-Create View with Analysis :
-Creates a virtual table based on the result-set of a query for analysis purposes.
-
-Queries with Indexes :
-Enhances the speed of data retrieval operations using indexes.
+---sql
+CREATE DATABASE ecommerce_db;
+USE ecommerce_db;
