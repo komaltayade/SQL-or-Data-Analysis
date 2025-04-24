@@ -39,4 +39,5 @@ aggregating, subqueries, joins, views, and indexing. The data is sourced from a 
 
 ---sql
 CREATE DATABASE ecommerce_db;
+
 USE ecommerce_db;
