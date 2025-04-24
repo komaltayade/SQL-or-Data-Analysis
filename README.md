@@ -35,9 +35,11 @@ aggregating, subqueries, joins, views, and indexing. The data is sourced from a 
 - Order Priority
 
 
- Database Setup :
 
+ Database Setup :
+ 
 ---sql
 
 CREATE DATABASE ecommerce_db;
+
 USE ecommerce_db;
