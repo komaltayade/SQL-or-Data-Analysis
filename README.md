@@ -24,5 +24,5 @@ Single Subquery: A subquery that returns a single value or row.
 Create View with Analysis :
 Creates a virtual table based on the result-set of a query for analysis purposes.
 
-Queries with Indexes
+Queries with Indexes :
 Enhances the speed of data retrieval operations using indexes.
