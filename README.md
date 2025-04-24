@@ -1,9 +1,9 @@
 # SQL-or-Data-Analysis
 Use SQL queries to extract and analyzse from a database.
 
-
 Summary of SQL Tasks :
 
+(Create a database:)
 
 SELECT Statement :
 Used to retrieve data from a database.
